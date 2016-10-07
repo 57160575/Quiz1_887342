@@ -51,6 +51,7 @@ US_states =
 	"West Virginia" => "WV",
 	"Wisconsin" => "WI",
 	"Wyoming" => "WY" }
+	US_states.each {|city, ci| puts ci, US_states[ci] if ci[1]=="T"||ci[1]=="N"}
 	
   	puts US_states["Connecticut"];
   	puts US_states["Indiana"];
